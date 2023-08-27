@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(53, 167, 167);
+}
+.formpart{
+    display: flex;
+    margin: 70px 10% 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 80px 10px 0px;
+    height: 400px;
+    border-radius: 30px;
+
+}
+.first-part{
+    margin-left: 5%;
+}
+.nd-part{
+    display: flex;
+    margin-left: 40px;
+}
+.nd-part1{
+
+}
+.nd-part2{
+    margin-left: 20px;
+}
+label{
+    font-weight: 800;
+}
+input{
+    width: 100%;
+    border-color: brown;
+    padding-left: 4px;
+}
+button{
+    background-color: rgb(6, 134, 92);
+    color: white;
+    font-size: 17px;
+    border: 2px solid rgb(173, 113, 1);
+    padding: 2px 9px;
+    border-radius: 10px;
+    font-weight: 800;
+}

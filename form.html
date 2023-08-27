@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form design</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <form class="formpart">
+        <div class="first-part">
+            <img src="image/sign-up.jpg" alt="">
+        </div>
+        <div class="nd-part">
+            <div class="nd-part1">
+                <label for="name">First name
+                    <input type="text" id="name">
+                </label>
+        
+                <label for="phone">Phone
+                    <input type="phone" id="phone">
+                </label>
+        
+                <label for="password">Password
+                    <input type="password" id="password" placeholder="password">
+                </label> 
+                <button type="reset">Reset</button> 
+            </div>
+            <div class="nd-part2">
+                <label for="last name">Last Name
+                    <input type="text" id="name">
+                </label>
+        
+                <label for="email">Email
+                    <input type="email" id="email">
+                </label>
+        
+                <label for="password">Confirm password
+                    <input type="password" id="password" placeholder="password">
+                </label>
+                <button type="submit">Sign up</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
